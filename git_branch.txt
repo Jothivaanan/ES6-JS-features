@@ -1,0 +1,29 @@
+1. Create repository
+
+2. git switch main
+
+3. git switch -c "Dev"
+
+4. git commit -a -m ""
+
+5. git push / git push --set-upstream origin Dev
+
+6. git switch -c "Feature/F1"   (....)
+
+7. git switch Dev
+
+8. git merge Feature/F1
+
+9. git switch Release/Testing
+
+10. git merge Dev
+
+11. git switch main
+
+12. git merge Release/Testing
+
+13.git switch -c Hotfix
+
+14. git pull Dev, feature/F2
+
+15. git push Dev, Release/Testing, main
